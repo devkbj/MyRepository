@@ -194,3 +194,16 @@ sleep(5)  # wait a bit more for more data to be computed
 # MAGIC Note that there are only a few files, so consuming all of them there will be no updates to the counts. Rerun the query if you want to interact with the streaming query again.
 # MAGIC 
 # MAGIC Finally, you can stop the query running in the background, either by clicking on the 'Cancel' link in the cell of the query, or by executing `query.stop()`. Either way, when the query is stopped, the status of the corresponding cell above will automatically update to `TERMINATED`.
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC SELECT * FROM diamonds
+
+# COMMAND ----------
+
+
